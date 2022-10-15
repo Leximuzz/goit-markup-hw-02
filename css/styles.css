@@ -22,6 +22,9 @@ a {
 a:hover {
   color: var(--main-blue-color);
 }
+a:focus {
+    color: var(--main-blue-color);
+}
 
 ul {
   list-style: none;
@@ -85,6 +88,9 @@ color: var(--main-blue-color);
 .address-link:hover {
   color: var(--main-blue-color);
 }
+.address-link:focus {
+    color: var(--main-blue-color);
+}
 .selected-link {
   color: var(--main-blue-color);
 }
@@ -113,6 +119,9 @@ color: var(--main-blue-color);
 }
 .hero-batton:hover {
   background-color: var(--blue-batton-hover);
+}
+.hero-batton:focus {
+    background-color: var(--blue-batton-hover);
 }
 
 /*features-section*/
@@ -159,7 +168,10 @@ color: var(--main-blue-color);
         letter-spacing: 0.03em;
 }
 .button-style:hover{
-    background-color: var(--main-blue-color);
+    background-color: var(--blue-batton-hover);
+}
+.button-style:focus {
+    background-color: var(--blue-batton-hover);
 }
 .h3-portfolio{
     font-weight: 700;
@@ -174,4 +186,7 @@ color: var(--main-blue-color);
 }
 .portfolio-card{
     background-color: var(--white-color);
+}
+.curent-filter{
+    background-color: var(--main-blue-color);
 }
