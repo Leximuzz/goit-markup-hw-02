@@ -166,6 +166,7 @@ font-weight: 500;
     font-size: 26px;
     line-height: 1.2;
   color: var(--white-color);
+  opacity: 0.6;
 }
 .address-link-footer {
 font-weight: 400;
